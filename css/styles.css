@@ -1,0 +1,107 @@
+/* Color Combination:
+  (Primary) Violet: #776d8a,
+  (Secondary) White: #f3e6e3,
+  (Tertiary) Blue: #dbe3e5 or #dddbe5,
+ (Quaternary) Gold: #d3c09a
+  (background) Blue:#dddbe5
+ */
+body {
+  background-color: #dddbe5; /*#264cd633 #776d8a*/;
+}
+h1,h3 {
+  color: #776d8a;
+}
+
+label {
+  background-color: #776d8a;
+  color: #f3e6e3;
+}
+table {
+  border-color: #f3e6e3;
+  color:#f3e6e3;
+}
+header{
+  background-color: #776d8a;
+}
+div{
+  background-color: #f3e6e3;
+}
+a{
+  display: inline-block;
+  color: #dddbe5;
+  text-decoration: none;
+  margin: 0 50px;
+
+}
+a:hover{
+  color: #d3c09a;
+}
+hr {
+  /* background-color: #776d8a; no background Color because our border has no height*/
+  border-color: #d3c09a;
+  border-style: dotted none none;
+  border-top-width: 8px;
+  width:5%;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul li::before {      /* {  to add a bullet point(Pseudo Elements) before every li element*/
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color:#d3c09a;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.header{
+  padding: 2% 2% 2% 0.5%;
+  margin-left: 0.5rem;
+  /* text-align: center; */
+  border-radius: 25px;
+}
+.picturename{
+  margin-bottom: 5px;
+  display:inline-block;
+  position: relative;
+  width: 300px;
+}
+.profilepic{
+  margin-right: 15px;
+}
+.title{
+  display: inline-block;
+  position: absolute;
+  color: #776d8a;
+  margin:0 0 0 0;
+  /* width: 20%; */
+  top:28%;
+}
+.booklist{
+ display:inline-block;
+ color: #776d8a;
+ position: absolute;
+ text-align: center;
+ margin:11px auto 0;
+}
+.subheadrow{
+  background-color:inherit;
+  /* position: relative; */
+  color: #776d8a;
+  font-style: italic;
+  width: 33%;
+  /* margin: 0 30% 0 0; */
+  /* left: 25%; */
+}
+.footer{
+  background-color: #776d8a;
+  color: #f3e6e3;
+  position: fixed;
+  bottom:3%;
+  width: 98%;
+  margin:0.5rem;
+  border-radius: 25px;
+  text-align: center;
+}
+.footer-p{
+  padding:0 1rem;
+}

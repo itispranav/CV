@@ -1,0 +1,164 @@
+/* Color Combination: Font & BackgroundL #30475E, Primary:#e7dec8, Secondary:#d3c09a     */
+*{
+  margin:0;
+  padding: 0;
+}
+hr {
+  /* background-color: #e7dec8; no background Color because our border has no height*/
+  border-color: #30475E;
+  border-style: dotted none none;
+  border-top-width: 8px;
+  width:5%;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul li::before {      /* {  to add a bullet point(Pseudo Elements) before every li element*/
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color:#30475E;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.body{
+  background-color: #30475E;
+  /* text-align: center; */
+}
+.font-content{
+  font-family: 'Playfair Display', serif;
+}
+.font-coding{
+  font-family: 'Courier Prime', monospace;
+}
+.font-cursive{
+  font-family: 'Dancing Script', cursive;
+}
+.header{
+  margin:1rem 1rem 0.5rem 1rem;
+  background-color: #e7dec8;;
+  padding: 2% 2% 2% 0.5%;
+  border-radius: 25px;
+  text-align: center;
+}
+.picturename{
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  width: 20rem;
+  /* width: 300px; */
+}
+.profilepic{
+  display: inline-block;
+  margin-left: 2%;
+  /* margin-right: 15px; */
+}
+.title{
+  color: #30475E;
+  font-size:2.8125rem;
+  font-weight: 900;
+  display: inline-block;
+  position: absolute;
+  margin:0 0 0 0.5rem;
+  /* width: 20%; */
+  top:15%;
+}
+.title-font{
+  font-family: 'Playfair Display', serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.subheadrow-parent{
+  text-align: center;
+}
+.subheadrow{
+  position: relative;
+  display: inline-block;
+  color: #e7dec8;
+  margin-left: auto;
+  margin-right: auto;
+  /* font-style: italic;
+  width: 20.2rem;
+  text-align: center;
+  left: 35%; */
+  font-weight: 100;
+  font-size:1rem;
+}
+.subheadrow-span{
+  font-size:1.3rem;
+}
+.flex-box{
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-flex;
+  display: flex;
+}
+.flex-b1-parent{
+  justify-content: center;
+  width:auto;
+}
+.flex-b1{
+  justify-content: space-around;
+  margin:1%;
+  position: relative;
+}
+.flex-b1 > div{
+  text-align: center;
+}
+.flex-b1-item{
+  width: 20rem;
+  line-height: 1.5rem;
+}
+.flex-b1-i1{
+  flex:0.5;
+  width: 10rem;
+  line-height: 0.9rem;
+  font-size: 0.8rem;
+  /* height: 6.3rem; */
+}
+.flex-b1-i2{
+  flex:1 1rem;
+}
+.flex-b1-i3{
+  flex:0.5;
+  width: 15rem;
+  /* height: 5rem; */
+  line-height: 0.9rem;
+}
+.content{
+  margin: 2%;
+  color: #e7dec8;
+  /* font-size: 0.8rem; */
+}
+.flex-b2-parent{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.flex-b2{
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: row;
+  /* justify-content: center; */
+}
+.flex-b2-item{
+  position: relative;
+}
+
+.footer{
+  background-color: #cbaf87;
+  padding:1%;
+  margin:1rem;
+  font-size: 1.3rem;
+  bottom:3%;
+  border-radius: 25px;
+  font-style: italic;
+}
+.footer-a{
+  color: #30475E;/*  #dddbe5*/
+  text-decoration: none;
+  margin: 0 50px;
+}
+/* a:hover{
+  color: #30475E;
+} */
+.footer-p{
+  padding:0 1rem;
+}

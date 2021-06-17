@@ -1,0 +1,118 @@
+/* Color Combination:
+  (Primary) Violet: #ecf4f3,
+  (Secondary) White: #68b0ab,
+  (Tertiary) Blue: #006a71 or #dddbe5,
+ (Quaternary) Gold:  #FF7E67
+ #ff9767f2
+  (background) Blue:#dddbe5
+ */
+ /* Color Combination:
+   (Primary) Violet: #ecf4f3,
+   (Secondary) White: #68b0ab,
+   (Tertiary) Blue: #006a71 or #dddbe5,
+  (Quaternary) Gold: #FF7E67
+   (background) Blue:#dddbe5
+  */
+body {
+  background-color: #ecf4f3; /*#264cd633 #ecf4f3*/;
+}
+h1,h3 {
+  color: #ecf4f3;
+}
+
+label {
+  background-color: #ecf4f3;
+  color: #68b0ab;
+}
+table {
+  border-color: #68b0ab;
+  color:#68b0ab;
+}
+header{
+  background-color: #ecf4f3;
+}
+div{
+  background-color: #68b0ab;
+}
+a{
+  display: inline-block;
+  color: #dddbe5;
+  text-decoration: none;
+  margin: 0 50px;
+
+}
+a:hover{
+  color: #FF7E67;
+}
+hr {
+  /* background-color: #ecf4f3; no background Color because our border has no height*/
+  border-color: #FF7E67;
+  border-style: dotted none none;
+  border-top-width: 8px;
+  width:5%;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul li::before {      /* {  to add a bullet point(Pseudo Elements) before every li element*/
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color:#FF7E67;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.header{
+  padding: 2% 2% 2% 0.5%;
+  margin-left: 0.5rem;
+  /* text-align: center; */
+  border-radius: 25px;
+}
+.picturename{
+  margin-bottom: 5px;
+  display:inline-block;
+  position: relative;
+  width: 300px;
+}
+.profilepic{
+  margin-right: 15px;
+}
+.title{
+  display: inline-block;
+  position: absolute;
+  color: #ecf4f3;
+  margin:0 0 0 0;
+  /* width: 20%; */
+  top:28%;
+}
+.booklist{
+ display:inline-block;
+ color: #ecf4f3;
+ position: absolute;
+ text-align: center;
+ margin:11px auto 0;
+}
+.subheadrow{
+  background-color:inherit;
+  /* position: relative; */
+  color: #ecf4f3;
+  font-style: italic;
+  width: 33%;
+  /* margin: 0 30% 0 0; */
+  /* left: 25%; */
+}
+.footer{
+  /* background-color: #ecf4f3; */
+  color: #68b0ab;
+  position: fixed;
+  bottom:3%;
+  width: 98%;
+  margin:0.5rem;
+  border-radius: 25px;
+  text-align: center;
+}
+.footer-p{
+  padding:0 1rem;
+}
+.subhead{
+  color: #ff9767f2;
+}
